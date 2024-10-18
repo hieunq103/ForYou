@@ -424,21 +424,19 @@ label {
 .new-text {
     fill: indianred;
     font-family: fantasy;
+    font-size: 38px;
+}
+
+.new-text1 {
+    fill: indianred;
+    font-family: fantasy;
     font-size: 50px;
 }
 
-#text-click {
-    display: none;
-    font-family: fantasy;
-    color: indianred;
-    font-size: 65px;
-    left: 60%; /* Thêm thuộc tính này để di chuyển chữ theo trục ngang */
-    transform: translate(10%, -40%); /* Để căn giữa chữ */
-    border: none;
-}
+
 
 
 #forYouImage {
     display: none;
-    margin-left: 50px; /* Adjust this value to move the image further to the right */
+
 }
