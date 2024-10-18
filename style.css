@@ -435,7 +435,7 @@ label {
 
 
 #forYouImage {
-    position: absolute; /* Để chiếm toàn bộ khung hình */
+    position: fixed; /* Để chiếm toàn bộ khung hình */
     top: 0; /* Đặt vị trí ở phía trên cùng */
     left: 0; /* Đặt vị trí ở phía bên trái */
     width: 100%; /* Chiếm toàn bộ chiều rộng */
