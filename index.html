@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
 </head>
 <body>
+<audio id="clickSoundCO" src="CLICK_CO.mp3"></audio>
+<audio id="clickSoundKHONG" src="CLICK_KHONG.mp3"></audio>
 
 <svg style="display: block; width: 100vw; height: 100vh;" id="theSvg" viewBox="0 0 800 600" preserveAspectRatio="none" overflow="visible">
      xml:space="preserve">
@@ -626,6 +628,13 @@
 </script>
 
 <script>
+    document.getElementById('text-co').addEventListener('click', function() {
+        document.getElementById('clickSoundCO').play();
+    });
+    document.getElementById('text-click').addEventListener('click', function() {
+        document.getElementById('clickSoundKHONG').play();
+    });
+
     var leafOne = document.querySelector('.leafOne');
     var stickLine = document.querySelector('.stickLine');
     var leafTwo = document.querySelector('.leafTwo');
@@ -902,8 +911,6 @@
         autoplay: true,
 
     });
-
-
 </script>
 </body>
 </html>
